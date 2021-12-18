@@ -1049,7 +1049,7 @@ $ renpy.pause (2.5)
 show remy at right with ease
 show martin normal flip at Position(xpos=0.25) with easeinleft
 
-Mt happy flip "Salutations, o great [player_name] and Remy! How are you doing on this ever so fine morning?" #Martin is Bri'ish confirmed
+Mt happy flip "Salutations, O Great [player_name] and Remy! How are you doing on this ever so fine morning?" #Martin is Bri'ish confirmed
 c "I’m doing pretty good. Why the fancy talk, though?"
 Mt normal flip "Just a little something I’ve been practicing, that’s all."
 m "Martin looked over to Remy and seemed to immediately understand the situation."
