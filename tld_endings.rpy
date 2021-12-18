@@ -1505,7 +1505,7 @@ else:
 
     m "We climbed on Logan’s motorcycle and drove as fast as we could to the factory. Much to my dismay, Logan only had a single helmet, which caused me to be constantly bombarded by raindrops in my eyes."
 
-    scene kolwtpoutnight at Pan((0,0),(0,80),4.0) with dissolve
+    scene kolfactoryoutnight at Pan((0,0),(0,80),4.0) with dissolve
     $ renpy.pause (5.0)
     stop sound fadeout (1.0)
 
