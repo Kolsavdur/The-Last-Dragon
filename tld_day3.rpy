@@ -1047,6 +1047,8 @@ if kol_tld_fruitsnackstaken == True:
 
         "Share the snacks with Remy.":
             m "I took the packet of fruit snacks and opened it, putting it on both our plates alongside our food."
+            
+            $ kol_tld_fruitsnackskept = True
 
 else:
     pass
@@ -1060,7 +1062,7 @@ Ry smile dk "I’m sure that this will taste great!"
 c "I wouldn’t be so sure about that, Remy. I think everyone can cook better than I can."
 Ry normal dk "But at least you {i}can{/i} cook. You’ll be surprised just how many dragons can’t actually cook. They’d rather spend their time hunting or eating out instead."
 
-if kol_tld_fruitsnackstaken == True:
+if kol_tld_fruitsnackskept == True:
     m "Remy looked suspiciously at the fruit snacks I put on his plate."
     Ry "Forgive me if I sound rude, but what type of food is this? I don’t think that I ever saw something like it before."
     c "Those are dried fruit snacks. I figured that you may be a bit interested in tasting some of the fruit that we have to offer, even if they are only dried ones."
@@ -1083,7 +1085,12 @@ else:
 
 m "We proceeded to finish our meals, with Remy finishing far later than I did."
 m "I started to prepare for tonight’s rest when Remy interrupted me."
-Ry shy dk "I’m sorry for bothering you, but I was wondering if I can sleep with you again. I know that I should sleep on my own, but it’s just really comforting to be with you."
+
+if kol_tld_remysleep1 == True:
+    Ry shy dk "I’m sorry for bothering you, but I was wondering if I can sleep with you again. I know that I should sleep on my own, but it’s just really comforting to be with you."
+
+else:
+    Ry shy dk "I'm sorry to bother you, but could I spend the night with you? I don't really want to sleep alone on the couch again."
 
 menu:
     "Any time, Remy.":
