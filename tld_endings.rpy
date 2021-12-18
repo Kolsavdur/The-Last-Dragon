@@ -363,7 +363,7 @@ menu:
                 Ry smile dk "And what a wonderful thing that hope is!"
 
 
-            "(Hug Remy.)":
+            "[[Hug Remy.]":
                 $ renpy.pause (1.0)
 
                 hide remy with dissolve
@@ -372,7 +372,7 @@ menu:
 
                 show remy shy dk with dissolve
 
-                Ry "T- Thank you, [player_name]. Your kindness is too much for words."
+                Ry "T-Thank you, [player_name]. Your kindness is too much for words."
                 c "Don’t worry about it."
 
 
@@ -386,7 +386,7 @@ menu:
 
 
         menu:
-            "Kiss Remy.":
+            "[[Kiss Remy.]":
 
                 hide kolremya
                 hide remy
@@ -430,7 +430,7 @@ menu:
 
 
 
-            "Look away.":
+            "[[Look away.]":
 
                 hide kolremya
                 hide remy
@@ -1848,7 +1848,7 @@ $ renpy.pause (2.0)
 m "Remy’s last words haunted me for a bit as I decided what I had to do now."
 
 menu:
-    "(Take Remy’s tie)":
+    "[[Take Remy’s tie.]":
         $ renpy.pause (1.8)
 
         m "I decided to honour Remy’s last wishes and took the tie with me. I put the tie around my neck and wore it proudly, just like Remy asked."
@@ -1869,7 +1869,7 @@ menu:
         jump tld_Credits
 
 
-    "(Leave the house)":
+    "[[Leave the house.]":
         $ renpy.pause (1.8)
 
         m "In the end, I decided that I should leave everything the way Remy had left it as a final homage."
@@ -2013,7 +2013,7 @@ if kol_tld_endinga == True:
     s "Ending achieved: [[A]quiring New Hope, or Ending A for short."
 
     play sound "fx/system.wav"
-    s "Gongratulations! You have seen the best possible ending in The Last Dragon! I have a feeling that this won't be the last time that he'll want to fly with you..."
+    s "Congratulations! You have seen the best possible ending in The Last Dragon! I have a feeling that this won't be the last time that he'll want to fly with you..."
 
     play sound "fx/system3.wav"
     s "Feel free to try and get another ending, or just savour this moment."
@@ -2026,7 +2026,7 @@ elif kol_tld_secretending == True:
     s "Ending achieved: Extended [[A]quiring new Hope, or The Secret Ending for short."
 
     play sound "fx/system.wav"
-    s "Gongratulations! You have seen the best possible ending in The Last Dragon, as well as the secret extension! Looks like randomness has favoured you!"
+    s "Congratulations! You have seen the best possible ending in The Last Dragon, as well as the secret extension! Looks like randomness has favoured you!"
 
     play sound "fx/system3.wav"
     s "Feel free to try and get another ending, or just savour this moment."
@@ -2040,7 +2040,7 @@ elif kol_tld_endingb == True:
     s "Ending achieved: [[B]ounded by Service, or Ending B for short."
 
     play sound "fx/system.wav"
-    s "Gongratulations! You have seen The Last Dragon's good ending! See, Martin could be trusted after all!"
+    s "Congratulations! You have seen The Last Dragon's good ending! See, Martin could be trusted after all!"
 
     play sound "fx/system3.wav"
     s "Feel free to try and get another ending, or just savour this moment."
@@ -2054,7 +2054,7 @@ elif kol_tld_endingc == True:
     s "Ending achieved: [[C]ommunication through Times, or Ending C for short."
 
     play sound "fx/system.wav"
-    s "Gongratulations! You have seen The Last Dragon's neutral ending! I wonder what happened with the portal..."
+    s "Congratulations! You have seen The Last Dragon's neutral ending! I wonder what happened with the portal..."
 
     play sound "fx/system3.wav"
     s "Feel free to try and get another ending, ideally a better one."
