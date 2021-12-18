@@ -1466,9 +1466,9 @@ if kol_tld_wtpchosen == True:
         "I hope so.":
             $ renpy.pause (1.0)
 
-            Lg tthinking "That’s an interesting way of thinking, [player_name]."
+            Lg tthinking dk"That’s an interesting way of thinking, [player_name]."
             Lg "To hope that you’ll feel better when you just experienced something horrible rarely brings any comfort, especially in a scenario like this."
-            Lg tserious "Just... don’t end up lying to yourself. It will only make things worse."
+            Lg tserious dk "Just... don’t end up lying to yourself. It will only make things worse."
 
 
         "I don’t want to talk about it right now.":
