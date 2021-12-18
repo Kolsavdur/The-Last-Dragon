@@ -762,7 +762,7 @@ menu:
     "Really? But there were still some things that needed explaining.":
         $ renpy.pause (0.5)
 
-        Mt "Alright, even {i}I{/i} could see that that was sarcasm."
+        Mt "Alright, even {i}I{/i} could see that what you just said was sarcasm."
         c "Looks like you’ve gotten better."
         Mt normal "Spending some time with Logan did help quite a lot."
         c "Go figure."
@@ -778,7 +778,7 @@ menu:
         $ renpy.pause (0.5)
 
         Ry "I do. After all, I lived through each of those experiences."
-        Lg seious "So did I."
+        Lg serious "So did I."
         Lg thinking "At least to a certain degree."
 
 
@@ -864,7 +864,7 @@ menu:
 
         Ry "Did you take them just because I took them?"
         c "I’ll leave that answer for myself."
-        Ry normal "Well, I suppose it doesn’t matter. Just take what you want the most."
+        Ry normal flip "Well, I suppose it doesn’t matter. Just take what you want the most."
 
 
     "Ribs":
@@ -951,7 +951,7 @@ if kol_tld_wtpchosen == True:
     Lg "Well, we’re going back to the water treatment plant, of course. No point in just wasting such a beautiful day like this."
 
 else:
-    Lg "Well, we’re going back to the facctory, of course. No point in just wasting such a beautiful day like this."
+    Lg "Well, we’re going back to the factory, of course. No point in just wasting such a beautiful day like this."
 
 
 Ry look flip "..."
