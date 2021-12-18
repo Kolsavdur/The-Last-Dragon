@@ -573,7 +573,7 @@ menu:
         stop music fadeout (1.5)
         $ renpy.pause (0.5)
 
-        Mt "A- Alright, I’ll try."
+        Mt "A-Alright, I’ll try."
 
         play music "mx/saviour_kol.ogg" fadein 0.5
 
@@ -799,7 +799,7 @@ menu:
 
         play music "mx/morningrise.ogg" fadein 4.0
 
-        Mt "W- Where am I?"
+        Mt "W-Where am I?"
         c "You’re at Logan’s house. You passed out just after seeing Remy."
         Mt "You mean that..."
         m "He shuddered."
