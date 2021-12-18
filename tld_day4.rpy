@@ -524,7 +524,7 @@ menu:
             "I don’t know.":
                 $ renpy.pause (0.5)
 
-                Ry "i see..."
+                Ry "I see..."
 
 
             "I’d celebrate.":
