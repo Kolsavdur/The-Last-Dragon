@@ -428,7 +428,7 @@ Ry "Wait, are they those mobile groups you once told me about?"
 c "Yeah, only this time, they’re going to cause a lot of problems if we don’t prepare this very second."
 Lg "I’ll take my motorcycle and ride to the northern gate, as it’s most likely where they will appear."
 Lg "Remy, see if you could fly and estimate how long until they arrive."
-Ry shy "I- I’ll try."
+Ry shy "I-I’ll try."
 
 hide remy with dissolve
 play sound "fx/takeoff.ogg"
