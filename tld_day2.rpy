@@ -604,7 +604,14 @@ menu:
 
         m "We arrived back at my house late at night after we decided to tour the city some more. Remy seemed to be more tired than usual, as he immediately went straight to the couch while I made something for me to eat."
         m "When I looked back to Remy to offer him some food, he was sound asleep."
-        c "(Seems Remy doesn’t need someone to sleep with tonight.)"
+        
+        if kol_tld_remysleep1 == True:
+
+            c "(Seems Remy doesn’t need someone to sleep with tonight.)"
+
+        else:
+            pass
+            
         m "I finished up with the remaining dishes and went straight to bed, letting my eyes wander around my room until I eventually fell asleep as well."
 
         scene black with fade
