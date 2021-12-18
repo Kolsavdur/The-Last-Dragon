@@ -300,6 +300,7 @@ if kol_tld_wtpchosen == True:
     c "But won’t you need a generator to power the purifiers?"
     Lg "I already sent somebody to get one from my house for me. All that needs to be done is the testing."
 
+    show logan normal flip with dissolve
     hide logan normal flip with easeoutright
 
     m "Logan was already walking before he finished that sentence. Me and Remy had to run so that we would be able to catch up."
