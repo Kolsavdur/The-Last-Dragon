@@ -823,7 +823,7 @@ else:
 
             Lg "Is that so?"
             Lg normal "Well, no way for me to ever find out."
-            Ry smile "I can confirm [player_name]’s statement. Everything I ate here tasted remarkably similar, and yet totally different all at once."
+            Ry smile flip "I can confirm [player_name]’s statement. Everything I ate here tasted remarkably similar, and yet totally different all at once."
             Lg thinking "What an interesting concept, then."
 
 
