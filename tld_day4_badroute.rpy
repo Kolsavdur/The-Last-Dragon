@@ -588,7 +588,7 @@ else:
 
     c "Do you have any recommendations as to what we should do next?"
     Ry "I would suggest getting some scrap metal, but I think that it would be a bit of a hassle picking some scraps up and trying to pry others from whatever parts we can."
-    c "How about we salvage soom wood, instead?"
+    c "How about we salvage some wood, instead?"
     Ry "I suppose we could. I did see a bunch of crates and shelves in some of the storage rooms, as well as a few planks randomly laying about."
     c "Off to the storage rooms, then!"
 
