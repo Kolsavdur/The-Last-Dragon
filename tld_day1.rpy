@@ -266,7 +266,7 @@ menu:
         Ry shy dk "I know this might sound weird, but do you mind if I sleep with you tonight? I don’t really feel comfortable in your world yet. Everything still feels so… strange."
 
         menu:
-            "(Accept)":
+            "[[Accept]":
                 c "Any time, Remy. I understand that you might feel a bit unsafe here. Letting you sleep with me is the least I could do."
                 c "We’ll just need to make some space if we actually plan to fit on the bed."
                 Ry dk "Thank you, [player_name]. This means a lot to me."
@@ -288,7 +288,7 @@ menu:
 
                 $ kol_tld_remysleep1 = True
 
-            "(Decline)": # :(
+            "[[Decline]": # :(
                 Ry sad dk "I understand. I really don’t know what came over me to ask something like that. I suppose I’ll just have to sleep here on the couch."
                 Ry normal dk "Good night, [player_name]. I hope you sleep well tonight."
                 c "Good night, Remy."
@@ -324,7 +324,7 @@ menu:
         m "I took away the dishes and cleaned them while I got lost in thought. Upon finishing them, I saw that Remy had fallen asleep on the couch."
 
         menu:
-            "(Join him)":
+            "[[Join him.]":
                 m "I decided to join Remy and lay down next to him in the little space available to me. I had no trouble falling asleep with Remy softly squeezing me against the back of the couch."
 
                 scene black with fade
@@ -333,7 +333,7 @@ menu:
 
                 $ kol_tld_remysleep1 = True
 
-            "(Go to your room)":
+            "[[Go to your room.]":
                 m "Not wanting to disturb Remy, I quietly went to my room and changed into my nightwear. As I started to settle down, a feeling of comfort washed over me as I remembered how good it felt to sleep in my own bed."
 
                 scene black with fade
@@ -361,7 +361,7 @@ menu:
         Ry "I just noticed that it's gotten really late now. This might sound a bit awkward, but would you mind if I sleep with you tonight? I don’t really feel safe in this world yet. Everything just feels so… unusual."
 
         menu:
-            "(Accept)":
+            "[[Accept]":
                 c "Any time, Remy. I understand that you might feel a bit unsafe here. Letting you sleep with me is the least I could do."
                 c "We’ll just need to make some space if we actually plan to fit on the bed."
                 Ry "Thank you, [player_name]. This means a lot to me."
@@ -380,7 +380,7 @@ menu:
 
                 $ kol_tld_remysleep1 = True
 
-            "(Decline)":
+            "[[Decline]":
                 Ry sad dk "I understand. I really don’t know what came over me to ask something like that. I suppose I’ll just have to sleep here on the couch."
                 Ry normal dk "Good night, [player_name]. I hope you sleep well tonight."
                 c "Good night, Remy."
