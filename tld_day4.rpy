@@ -34,7 +34,7 @@ menu:
         Lg "We can’t afford to do nothing if we want to survive."
         c "Says the person who’s favourite hobby is sleep deprivation." #One of my most favourite non-Remy lines
         Lg normal "Touché, [player_name]."
-        Lg serious "Stil, work has to be done, and you know that."
+        Lg serious "Still, work has to be done, and you know that."
 
 
     "Well, I guess you’re right.":
