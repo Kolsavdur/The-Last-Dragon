@@ -2,13 +2,6 @@
 
 The Last Dragon is a mod for the game Angels with Scaly Wings. This mod aims to replace Remy's bad ending by allowing you to stay behind with him when pressured by the Administrator to go through the portal.
 
-The Last Dragon adds:
-
--5 seperate endings
--A bunch of new assets, including backgrounds, music and sprite edits
--2 new characters
--Video games!
-
 Do note that this mod requires MagmaLink to work, which can be found at the Steam workshop, or [here on GitLab](https://gitlab.com/jakzie2/awsw-magmalink).
 
 I do hope that you enjoy this mod, as it was just as fun to create it (minus a few scenes, but no spoilers yet!) and to make this mod into something that players could potentially enjoy.
