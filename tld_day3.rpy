@@ -746,7 +746,7 @@ menu:
 
         m "Martin’s face twisted with shock and fear."
         Mt "-aaaaaaAAAAAAAAHHHHHHHHHH!!!" with Shake ((0, 0, 0, 0), 3, dist=35)
-        Mt "D- D- DRAGON!!!"
+        Mt "D-D-DRAGON!!!"
         c "Calm down, Martin. Remy is really friendly. I promise that he won’t hurt you."
         Ry "Hello! You must be Martin, correct?"
         Mt "IT TALKS!" with Shake ((0, 0, 0, 0), 1, dist=10)
@@ -925,7 +925,7 @@ menu:
         $ renpy.pause (1.0)
 
         m "Logan gave a few warning shots as if to prove his point. Everybody in the area suddenly had an alarmed expression on their faces."
-        Mt serious "I- I’ll be going now."
+        Mt serious "I-I’ll be going now."
         Mt "I apologize for bothering you."
 
         hide martin with dissolve
