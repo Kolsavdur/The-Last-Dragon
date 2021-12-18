@@ -168,7 +168,7 @@ show remy normal with dissolve
 
 
 c "Well, looks like the time caught us off guard. Let’s go home before it gets too late."
-Ry normal "Lead the way."
+Ry "Lead the way."
 
 scene black with fade
 $ renpy.pause (1.0)
