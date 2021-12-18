@@ -44,6 +44,7 @@ init python:
 
     #Other Variables
     kol_tld_fruitsnackstaken = False
+    kol_tld_fruitsnackskept = False
 
 
 #custom sprites
