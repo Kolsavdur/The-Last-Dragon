@@ -132,7 +132,10 @@ menu:
         stop sound fadeout (0.5)
         stop music fadeout (2.0)
 
-        show remy normal at right with ease
+        show remy normal with dissolve
+        $ renpy.pause (0.3)
+        show remy at right with ease
+        
         show logan tsmiling flip at Position(xpos = 0.25) with easeinleft
         $ renpy.pause (2.0)
 
@@ -276,7 +279,10 @@ menu:
         stop sound fadeout (0.5)
         stop music fadeout (2.0)
 
-        show remy normal at right with ease
+        show remy normal with dissolve
+        $ renpy.pause (0.3)
+        show remy at right with ease
+        
         show logan tsmiling flip at Position(xpos = 0.25) with easeinleft
         $ renpy.pause (2.0)
 
