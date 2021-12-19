@@ -813,7 +813,7 @@ hide remy with dissolve
 hide logan with dissolve
 hide martin with dissolve
 
-m "Everybody took a few steps back to give Remy some space. He seemed to struggle a bit at first, but was soon able to breathe a small, consistent stream of fire that ignited the fire pit we used for the barbeque."
+m "Everybody took a few steps back to give Remy some space. He seemed to struggle a bit at first, but was soon able to spray two streams of liquid that ignited into a large fire as soon as it made contact with the firewood."
 
 play sound "fx/firex.ogg"
 
