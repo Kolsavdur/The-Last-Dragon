@@ -343,27 +343,30 @@ c "I see your point."
 Ry smile "That is an amazing story you told. I don’t think that even our smartest could have done what you did from scratch."
 Lg thinking flip "Is that so? Guess I overestimated everything your kind achieved, then."
 
+show remy look with dissolve
+
 menu:
     "It's only because you're overqualified.":
-        show remy look with dissolve
-        $ renpy.pause (0.5)
+        $ renpy.pause (1.0)
+
         c "Or it’s because you have a degree in electromagnetism, as well as years worth of experience working on electronics as a hobby and a job."
         Lg smiling flip "Or that, I suppose."
 
     "Their technology was extremely advanced.":
-        show remy look with dissolve
-        $ renpy.pause (0.5)
+        $ renpy.pause (1.0)
+
         c "Well, the technology the dragons had was very similar to what we had before the solar flare."
         c "Remember, they weren’t as easy to develop due to the dragons not having as much articulation in their joints as humans."
         Lg normal flip "I guess I can see where you’re coming from."
 
     "If only you could have seen everything in action.":
-        show remy look with dissolve
-        $ renpy.pause (0.5)
+        $ renpy.pause (1.0)
+
         c "If only you knew what exactly kind of things were on the other side of the portal."
         Lg "Like what?"
         c "Things that I’ll keep to myself, for now."
         Lg normal flip "How ominous."
+        
 
 stop music fadeout (3.0)
 show logan thinking flip with dissolve
