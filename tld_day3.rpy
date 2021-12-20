@@ -1108,40 +1108,57 @@ menu:
         hide remy with dissolve
 
         m "I went to my bedroom, changed into my nightwear and climbed into my bed. Remy followed soon after."
-        m "I felt Remy slowly hugging me, making sure to not press me too hard."
 
-        $ renpy.pause (1.0)
-        show remy sleep dk with dissolve
-        $ renpy.pause (2.0)
+        if remystatus == "neutral":
 
-        menu:
-            "Return the hug.":
-                $ renpy.pause (0.5)
+            show remy sleep dk with dissolve
+            
+            c "Goodnight, Remy."
+            Ry "Goodnight, [player_name]."
+            Ry "And thank you. Again."
+            c "No problem."
 
-                m "I put my arms around Remy and hugged him. He smiled and threw his wings over me in a way similar to that of a blanket. As I started to fall asleep, I could feel Remy giving me a small lick on the cheek."
-                Ry "Goodnight, [player_name]."
-                c "Sleep well, Remy."
+            scene black with fade
+            stop music fadeout (2.0)
+            $ renpy.pause (2.0)
 
-                scene black with fade
-                stop music fadeout (2.0)
-                $ renpy.pause (2.0)
+            $ kol_tld_remysleep2 = True
 
-                $ kol_tld_remysleep2 = True
+        else:
+            m "I felt Remy slowly hugging me, making sure to not press me too hard."
+
+            $ renpy.pause (1.0)
+            show remy sleep dk with dissolve
+            $ renpy.pause (2.0)
+
+            menu:
+                "Return the hug.":
+                    $ renpy.pause (0.5)
+
+                    m "I put my arms around Remy and hugged him. He smiled and threw his wings over me in a way similar to that of a blanket. As I started to fall asleep, I could feel Remy giving me a small lick on the cheek."
+                    Ry "Goodnight, [player_name]."
+                    c "Sleep well, Remy."
+
+                    scene black with fade
+                    stop music fadeout (2.0)
+                    $ renpy.pause (2.0)
+
+                    $ kol_tld_remysleep2 = True
 
 
-            "Fall asleep.":
-                $ renpy.pause (0.5)
+                    "Fall asleep.":
+                    $ renpy.pause (0.5)
 
-                c "Goodnight, Remy."
-                Ry "Goodnight, [player_name]."
-                Ry "And thank you. Again."
-                c "No problem."
+                    c "Goodnight, Remy."
+                    Ry "Goodnight, [player_name]."
+                    Ry "And thank you. Again."
+                    c "No problem."
 
-                scene black with fade
-                stop music fadeout (2.0)
-                $ renpy.pause (2.0)
+                    scene black with fade
+                    stop music fadeout (2.0)
+                    $ renpy.pause (2.0)
 
-                $ kol_tld_remysleep2 = True
+                    $ kol_tld_remysleep2 = True
 
 
 
