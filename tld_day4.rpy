@@ -331,7 +331,13 @@ menu:
                 $ renpy.pause (0.5)
 
                 Ry "But I am."
-                Ry "You could have gone on to do so many great things if it weren’t for this horrible excuse of a partner."
+                
+               if remystatus == "neutral":
+                    Ry "You could have gone on to do so many great things if it weren’t for this horrible excuse of a friend."
+
+                else:
+                    Ry "You could have gone on to do so many great things if it weren’t for this horrible excuse of a partner."
+
                 Ry "Maybe even..."
 
                 $ renpy.pause (1.0)
