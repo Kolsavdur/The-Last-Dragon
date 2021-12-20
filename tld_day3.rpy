@@ -1146,7 +1146,7 @@ menu:
                     $ kol_tld_remysleep2 = True
 
 
-                    "Fall asleep.":
+                "Fall asleep.":
                     $ renpy.pause (0.5)
 
                     c "Goodnight, Remy."
