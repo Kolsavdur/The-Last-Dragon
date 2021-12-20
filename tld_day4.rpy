@@ -585,9 +585,17 @@ menu:
             hide remy with dissolve
 
             m "We both prepared for bed while we continued to talk with each other. After we were finished, I climbed into my bed, with Remy climbing in after me."
-            m "Remy, however, started to hug me as soon as he got comfortable in the bed, pulling me closer to him."
-            m "He gave me a small kiss afterwards."
+            
+            if remystatus == "neutral":
 
+                pass
+
+            else:
+
+                m "Remy, however, started to hug me as soon as he got comfortable in the bed, pulling me closer to him."
+                m "He gave me a small kiss afterwards."
+                
+                
             show remy sleep dk with dissolve
 
             Ry "Goodnight, [player_name]."
