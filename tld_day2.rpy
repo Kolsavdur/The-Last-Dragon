@@ -55,7 +55,7 @@ Ry "Wait for me, please!"
 m "I waited a bit for Remy to catch up with me as I walked to the entrance to the now slightly less deserted city."
 
 scene city at Pan ((0, 360), (0, 0), 4.0) with dissolve
-show remy with dissolve
+show remy normal with dissolve
 
 Ry shy "Sorry for holding you back. I had a bit of trouble getting everything ready before going out."
 
