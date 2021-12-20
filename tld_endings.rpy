@@ -731,7 +731,7 @@ menu:
             play sound "fx/system3.wav"
             s "Feel free to try and get another ending, or just savour this moment."
 
-            jump mainmenu
+            jump ml_main_menu
 
 
         else:
@@ -856,7 +856,7 @@ menu:
             play sound "fx/system3.wav"
             s "Feel free to try and get another ending, or just savour this moment."
 
-            jump mainmenu
+            jump ml_main_menu
 
 
 
@@ -1353,7 +1353,7 @@ s "Congratulations! You have seen The Last Dragon's good ending! See, Martin cou
 play sound "fx/system3.wav"
 s "Feel free to try and get another ending, or just savour this moment."
 
-jump mainmenu
+jump ml_main_menu
 
 
 
@@ -1690,7 +1690,7 @@ menu:
         play sound "fx/system3.wav"
         s "Feel free to try and get another ending, ideally a better one."
 
-        jump mainmenu
+        jump ml_main_menu
 
 
     "Let’s keep the note to ourselves.":
@@ -1831,7 +1831,7 @@ menu:
         play sound "fx/system3.wav"
         s "Feel free to try and get another ending, ideally a better one."
 
-        jump mainmenu
+        jump ml_main_menu
 
 
 
@@ -2209,7 +2209,7 @@ if kol_tld_wtpchosen == True:
     play sound "fx/system3.wav"
     s "Feel free to try and get another ending, hopefully a better one."
 
-    jump mainmenu
+    jump ml_main_menu
 
 
 
@@ -2451,7 +2451,7 @@ else:
     play sound "fx/system3.wav"
     s "Feel free to try and get another ending, hopefully a better one."
 
-    jump mainmenu
+    jump ml_main_menu
 
 
 
@@ -2816,7 +2816,7 @@ menu:
         play sound "fx/system3.wav"
         s "Still, if you need a bit of a break, then I understand. I'll be here, waiting for your return."
 
-        jump mainmenu
+        jump ml_main_menu
 
 
     "[[Leave the house.]":
@@ -2955,7 +2955,7 @@ menu:
         play sound "fx/system3.wav"
         s "Still, if you need a bit of a break, then I understand. I'll be here, waiting for your return."
 
-        jump mainmenu
+        jump ml_main_menu
 
 #This ending I sweaer is going to be the death of me. Why did I even create this? Why would I unleash such a horrific nightmare upon this world? This is all my fault. This entire mod is hot garbage. Why did I waste almost four months working on this? All for nothing...
 #...
