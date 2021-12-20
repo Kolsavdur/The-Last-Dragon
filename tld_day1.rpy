@@ -378,7 +378,7 @@ menu:
                 hide remy with dissolve
 
                 if remystatus == "neutral":
-                    m "We went to my bedroom, where I changed into my nightwear and climbed into my bed. Remy tried to fit in, and after much struggle, we finally settled.
+                    m "We went to my bedroom, where I changed into my nightwear and climbed into my bed. Remy tried to fit in, and after much struggle, we finally settled."
 
                 else:
                     m "We went to my bedroom, where I changed into my nightwear and climbed into my bed. Remy tried to fit in, and after much struggle, we finally settled. His scales felt strangely soft as he snuggled next to me." #SNUGGLES!
