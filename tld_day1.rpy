@@ -276,7 +276,11 @@ menu:
 
                 hide remy with dissolve
 
-                m "We went to my bedroom, where I changed into my nightwear and climbed into my bed. Remy tried to fit in, and after much struggle, we finally settled. His scales felt strangely soft as he snuggled next to me." #SNUGGLES!
+                if remystatus == "neutral":
+                    m "We went to my bedroom, where I changed into my nightwear and climbed into my bed. Remy tried to fit in, and after much struggle, we finally settled.
+
+                else:
+                    m "We went to my bedroom, where I changed into my nightwear and climbed into my bed. Remy tried to fit in, and after much struggle, we finally settled. His scales felt strangely soft as he snuggled next to me." #SNUGGLES!
 
                 show remy sleep dk with dissolve
 
@@ -373,7 +377,12 @@ menu:
 
                 hide remy with dissolve
 
-                m "We went to my bedroom, where I changed into my nightwear and climbed into my bed. Remy tried to fit in, and after much struggle, we finally settled. His scales felt strangely soft as he snuggled next to me."
+                if remystatus == "neutral":
+                    m "We went to my bedroom, where I changed into my nightwear and climbed into my bed. Remy tried to fit in, and after much struggle, we finally settled.
+
+                else:
+                    m "We went to my bedroom, where I changed into my nightwear and climbed into my bed. Remy tried to fit in, and after much struggle, we finally settled. His scales felt strangely soft as he snuggled next to me." #SNUGGLES!
+                
                 c "Good night, Remy."
                 Ry sleep dk "Good night, [player_name]."
 
