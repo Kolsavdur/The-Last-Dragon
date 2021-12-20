@@ -258,8 +258,9 @@ menu:
     "You're right. We should leave this for tomorrow.":
 
         $ renpy.pause (2.0)
-        show kolmchousenight behind remy at Pan((0,80),(0,80),5.0) with dissolve
-        show remy sad dk with dissolve
+        show kolmchousenight behind remy at Pan((0,80),(0,80),5.0)
+        show remy sad dk
+        with dissolve
         $ renpy.pause (2.0)
 
         Ry normal dk "I think it would be better. It is getting really late now, and I would still like to get a good night’s rest."
@@ -317,8 +318,9 @@ menu:
         Ry "You do have a point there."
 
         $ renpy.pause (2.0)
-        show kolmchousenight behind remy at Pan((0,80),(0,80),5.0) with dissolve
-        hide remy with dissolve
+        show kolmchousenight behind remy at Pan((0,80),(0,80),5.0)
+        show remy sad dk
+        with dissolve
         $ renpy.pause (2.0)
 
         m "I took away the dishes and cleaned them while I got lost in thought. Upon finishing them, I saw that Remy had fallen asleep on the couch."
@@ -353,8 +355,9 @@ menu:
         Ry normal "I see."
 
         $ renpy.pause (2.0)
-        show kolmchousenight behind remy at Pan((0,80),(0,80),5.0) with dissolve
-        show remy normal dk with dissolve
+        show kolmchousenight behind remy at Pan((0,80),(0,80),5.0)
+        show remy sad dk
+        with dissolve
         $ renpy.pause (2.0)
 
         Ry shy dk "..."
