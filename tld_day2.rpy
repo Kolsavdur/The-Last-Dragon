@@ -44,7 +44,7 @@ Ry smile "Judging by your expression, I’d say that you like your food, or am I
 c "Remy, once again, you show me that your cooking is amazing. These taste exactly like the ones I always used to eat before the flare hit."
 Ry shy "Is that so?"
 Ry smile "Well, maybe it’s because I studied the recipes on your PDA while you were sleeping."
-c "No wonder why they tasted so familiar. However, that still doesn’t answer how you could get the tastes spot on without the original ingredients, though."
+c "No wonder why they tasted so familiar. However, that still doesn’t answer how you could get the taste spot on without the original ingredients, though."
 Ry normal "That is a secret I’ll keep to myself for now."
 
 hide remy with dissolve
