@@ -380,7 +380,11 @@ menu:
         $ renpy.pause (3.5)
         hide remy with dissolve
 
-        m "Remy removed his tie and looked at me shyly in a familiar way, immediately describing his intentions."
+        if remystatus == "neutral":
+            m "Remy suddenly removed his tie and looked at me shyly. As he slowly approached, I could immediately see what he was trying to do."
+
+        else:
+            m "Remy suddenly removed his tie and looked at me with a shy grin in an almost familiar way, immediately describing his intentions."
 
         show kolremya at Pan((580, 326), (350, 0), 8.0) with fade
         $ renpy.pause (6.0)
