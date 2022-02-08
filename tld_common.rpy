@@ -8,13 +8,13 @@ init python:
     kol_tld_remytherapycounter = 0 #Day 4
 
     #Videogame Variables
-    kol_tld_mckick = 8
+    kol_tld_mckick = 6
     kol_tld_mckickcrit = 12
     kol_tld_mckickfail = 4
     kol_tld_mcpunch = 5
     kol_tld_mcpunchcrit = 10
     kol_tld_mcpunchfail = 2
-    kol_tld_mcspecial = 7
+    kol_tld_mcspecial = 8
     kol_tld_mcspecialfail = 3
     kol_tld_mcspecialcrit = 15
 
