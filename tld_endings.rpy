@@ -2571,6 +2571,8 @@ c "No..."
 c "NO!"
 c "REMY!" with Shake ((0, 0, 0, 0), 0.8, dist=25)
 
+$ remydead = True
+
 show kolremye at Pan ((250, 324), (250, 0), 8.0) with fade
 $ renpy.pause (5.0)
 scene black with dissolveslow
