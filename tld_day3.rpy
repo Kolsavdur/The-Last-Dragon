@@ -384,7 +384,7 @@ menu:
         Lg "I still think that I could be able to partly fix this factory so that it could start running again, although it would put quite the dent in our resources available."
         Lg tnormal flip "Speaking of which: what did you find, [player_name]?"
         c "Just a few wooden planks and some scrap metal."
-        c "However, I did find a container with some food, though"
+        c "However, I did find a container with some food, though."
         #That moment when your kinda OC has an ungodly amount of plot armour yet is also the voice of reason in whatever random scenario you create...
         show logan tsurprised flip with dissolve
 
