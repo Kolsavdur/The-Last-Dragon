@@ -4,7 +4,7 @@ from modloader.modclass import Mod, loadable_mod
 @loadable_mod
 class AWSWMod(Mod):
     name = "The Last Dragon"
-    version = "v1.02"
+    version = "v1.03"
     author = "Kolsavdur"
     dependencies = ["MagmaLink"]
 
