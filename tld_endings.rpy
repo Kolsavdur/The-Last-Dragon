@@ -2622,7 +2622,7 @@ else:
 
     n "I know that I can’t try to help you anymore, but I believe that this is for the better. A monster like me can’t ever hope to try and make things right. Especially not after I caused everybody and everything I knew to burn to the ground."
     n "Everything was always my fault, even if I didn’t notice it at the time. First with me causing Amelia’s death by not being there for her in her greatest time of need; all because of my selfish desires to keep our relationship a secret."
-    n "Then with Emera and how I always managed to damage priceless artifacts while I was working. She was right about everything she said to me. How {i}could{/i} I even have worked for the council when all I did was break everything I touched?"
+    n "Then with Emera and how I always managed to damage priceless artefacts while I was working. She was right about everything she said to me. How {i}could{/i} I even have worked for the council when all I did was break everything I touched?"
 
     window hide
     nvl clear
