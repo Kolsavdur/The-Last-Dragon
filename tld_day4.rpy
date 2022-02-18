@@ -536,7 +536,7 @@ menu:
             "I’d celebrate.":
                 $ renpy.pause (1.0)
 
-                $ kol_tld_remytherapycounter += 1
+                $ kol_tld_remytherapycounter -= 3
 
                 Ry "..."
 
