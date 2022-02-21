@@ -590,7 +590,7 @@ else:
 
     show martin normal at Position(xpos = 0.90) with easeinright
 
-    Mt "Well, I found the part you were lo-{w=0.75}{nw}"
+    Mt "Well, I found the part you were lo-{w=0.95}{nw}"
 
     m "His face then shifted to an expression of surprise."
     Mt shocked "Oh! [player_name] and Remy are here!"
@@ -950,7 +950,7 @@ else:
     play sound "fx/landing.ogg"
     $ renpy.pause (1.0)
 
-    m "Remy soon landed after with a mildly distraught face."
+    m "Remy soon landed after I arrived with a mildly distraught face."
 
     show remy look with dissolvemed
 
@@ -1037,7 +1037,7 @@ $ renpy.pause (1.0)
 
 play music "mx/onesix_kol.ogg" fadein 1.5
 
-c "There you are, Martin! I desperately need to tell you something. You see, a-{w=0.8}{nw}"
+c "There you are, Martin! I desperately need to tell you something. You see, a-{w=2.0}{nw}"
 Mt serious "-huge storm is brewing. I know. Kind of obvious, don't you think?"
 Mt "I’ve been studying it for quite some time, actually. When I noticed that the air started to feel more humid and the wind started to get more intense, I decided that I should go to the closest open area to investigate."
 Mt "Which brought me here staring at the skies to see if I could make any conclusions about our odds of escaping this storm unscathed."
@@ -1080,7 +1080,7 @@ menu:
 
 Mt "In any case, you shouldn’t worry about the storm. It’s really not as bad as it looks."
 c "Noted. Did you tell anybody else yet?"
-Mt "Not really. I figured that you might be the first person that would like to hear. Well, you and-{w=1.3}{nw}"
+Mt "Not really. I figured that you might be the first person that would like to hear. Well, you and-{w=2.0}{nw}"
 
 play sound "fx/landing.ogg"
 $ renpy.pause (1.0)
@@ -1093,7 +1093,7 @@ show remy normal at right with easeinright
 Mt "-Remy."
 c "What a coincidence."
 Ry smile "Good news! The storm should safely pass by. We will feel some heavy rain, sure, but nothing to worry about."
-Mt "And that would be confirmation I need to prove my point."
+Mt "And that would be the confirmation I need to prove my point."
 Ry look "Wait, was I too late to tell you, then?"
 c "Not at all. Martin only speculated about the weather based on what he could determine at ground level."
 c "I’d bet that things would be much different in the sky."
