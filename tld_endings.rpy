@@ -1002,7 +1002,7 @@ Lg "Alright, here’s the answer:"
 Lg smiling "Nothing!"
 Ry look flip "What do you mean by “nothing”?"
 Mt normal "To celebrate the storm passing safely, Logan decided that we should take the day off and have a good ol’ fashioned barbeque."
-Lg normal "That’s right! What better way to celebrate surviving a near cataclysmic event by cooking some meat over an open fire?"
+Lg normal "That’s right! I mean, what better way is there to celebrate surviving a near cataclysmic event by cooking meat over an open fire?"
 c "I’ll admit, this is really unusual. {w}Even for you, Logan."
 Lg "Well, we didn’t have a proper chance to catch up yet, especially with all the things that have been going on."
 Lg thinking "Like, you know, the generators, Remy and Martin joining us, the repairs-{w=1.5}{nw}"
@@ -1092,7 +1092,7 @@ hide remy with dissolve
 hide logan with dissolve
 hide martin with dissolve
 
-m "We talked about random nonsense as we waited for the meat to cook. Martin, it seemed, was a master at cooking meat over an open fire, making sure that the meat never overcooked while also making sure every piece received a far bit of smoke to add to the flavour."
+m "We talked about random nonsense as we waited for the meat to cook. Martin, it seemed, was a master at cooking meat over an open fire, making sure that the meat never overcooked while also making sure every piece received a fair bit of smoke to add to the flavour."
 m "Soon, the food was ready."
 
 show remy normal flip at Position(xpos = 0.10) with dissolve
