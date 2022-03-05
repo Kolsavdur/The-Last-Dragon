@@ -2594,7 +2594,7 @@ $ renpy.pause (1.0)
 c "Remy..."
 c "Forgive me for not being there during your last moments..."
 m "I looked around to see if there was anything that Remy might have left me. Eventually, I found a small notebook on a nearby dresser. I checked the first page and found the confirmation I was looking for."
-m "Whatever was written down here was meant for me. I started to read the barely legible handwriting found within what little light was available to me."
+m "Whatever was written down here was meant for me. I started to read the barely legible handwriting found within in what little light was available to me."
 
 stop music fadeout (2.0)
 
