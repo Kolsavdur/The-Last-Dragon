@@ -307,7 +307,7 @@ if kol_tld_wtpchosen == True:
             Lg "What does it even matter, though?"
             Lg "It’s either that I died here under the rubble, or die later when we run out of clean water."
             c "Don’t think like that when there is still some hope left. After all, you still have some spare parts left, as well as the other purifiers."
-            c "Sure, we may only have two generators left, but it's till manageable."
+            c "Sure, we may only have two generators left, but it's still manageable."
             Lg "Not if there aren’t any usable parts left that are compatible with the purifiers. Or if the last generators also blow up."
             Lg "Just more monotonous work for later, I guess."
 
