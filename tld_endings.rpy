@@ -1226,7 +1226,7 @@ if kol_tld_remyvideogames == True:
     Ry normal flip "We shall see."
 
 else:
-    Ry normal flip "Now, let's go play some video games, since youdidn't want to play last time."
+    Ry normal flip "Now, let's go play some video games, since you didn't want to play last time."
     c "Alright. Let's see how good you actually are."
     Ry smile flip "You'd be surprised."
 
