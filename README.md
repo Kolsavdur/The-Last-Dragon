@@ -4,7 +4,7 @@ The Last Dragon is a mod for the game Angels with Scaly Wings. This mod aims to 
 
  ________________________________________________________________________________________________
  
-Do note that this mod requires MagmaLink to work, which can be found at the Steam workshop, or [here on GitLab](https://gitlab.com/jakzie2/awsw-magmalink).
+Do note that this mod requires MagmaLink to work, which can be found at the Steam workshop, or [here on GitLab](https://gitlab.com/jakzie2/awsw-magmalink). In addition, this mod will also need my core mod to work, which can be found on the Steam workshop, or [here](https://github.com/Kolsavdur/Kolsavdur-Core-Mod).
 
  ________________________________________________________________________________________________
  
